@@ -1,12 +1,14 @@
 #include<stdio.h>
 #include "displayVariable.h"
+#include "myDetails.h"
+#include "employeSalary.h"
 
 void AllProgramStarter(int n){
  switch (n)
  {
  case 1:
  printf("\n*** ** *MY DETAILS* ** *** \n");
- 
+ myDetails();
  break;
  case 2:
  printf("\n*** ** *TYPE OF VARIABLE* ** *** \n");
@@ -14,7 +16,7 @@ void AllProgramStarter(int n){
  break;
  case 3:
  printf("\n*** ** *EMPLOYEE SALARY* ** *** \n");
-
+ employeSalary();
  break;
  case 4:
  printf("\n*** ** *VOLUME OF SPHERE* ** *** \n");
