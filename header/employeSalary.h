@@ -6,7 +6,7 @@ void employeSalary(){
  int id,workedhour,perhour,salary;
 
  printf("Enter Employee ID : ");
- scanf("%s",&id);
+ scanf("%d",&id);
 
  printf("Enter Working Hrs : ");
  scanf("%d",&workedhour);
