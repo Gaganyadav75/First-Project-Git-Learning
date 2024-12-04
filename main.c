@@ -7,8 +7,8 @@ int main()
 
     do {
 
-        printf("\n ## 0 to exit ##");
-        printf("\nEnter Program No. 1 - 10 : ");
+        // printf("\n ## 0 to exit ##");
+        printf("\nEnter Program No. 1 - 10 or 0 to exit : ");
         scanf("%d", &inp);
 
         system("cls");

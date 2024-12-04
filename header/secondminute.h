@@ -1,5 +1,5 @@
 #include<stdio.h>
-void Prog10(){
+void secoundstohours(){
  int minute, hour, seconds;
  printf("Enter total seconds : ");
  scanf("%d", &seconds);
