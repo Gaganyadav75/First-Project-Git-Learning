@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
+#include "header/assignment1.h"
 int main()
 {int inp;
 

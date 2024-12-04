@@ -2,8 +2,8 @@
 #include "displayVariable.h"
 #include "myDetails.h"
 #include "employeSalary.h"
-
-void AllProgramStarter(int n){
+#include "spherevol.h"
+void Assignment1(int n){
  switch (n)
  {
  case 1:
@@ -20,7 +20,7 @@ void AllProgramStarter(int n){
  break;
  case 4:
  printf("\n*** ** *VOLUME OF SPHERE* ** *** \n");
-
+sphere();
  break;
  case 5:
  printf("\n*** ** *KM/H TO MILE/H* ** *** \n");
